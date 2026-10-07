@@ -1,6 +1,6 @@
 # 🕶️ Document Redaction & Sanitization Studio
 
-> 🇮🇹 **Italiano** | 🇬🇧 [English](README.md)
+> 🇬🇧 [English](README.md) | 🇮🇹 **Italiano**
 
 Un'applicazione web standalone che esegue una **redazione vera** di immagini e PDF — non quella
 cosmetica. La maggior parte degli strumenti di "redazione" gratuiti disegna semplicemente un
@@ -19,7 +19,7 @@ Questo pacchetto contiene:
   avviare l'app)
 - **`document-redaction-studio.js`** - Tutta la logica dell'applicazione (caricata dal file HTML;
   tieni i due file nella stessa cartella)
-- **`LICENSE`** - Licenza MIT
+- **`LICENSE`** - Licenza GPL-3.0
 - **`README.md`** / **`README-IT.md`** - Questa documentazione (inglese / italiano)
 
 ---
@@ -330,7 +330,7 @@ Per problemi, domande o suggerimenti, apri una issue su GitHub.
 
 ## 📜 LICENZA
 
-Licenza MIT - vedi il file [LICENSE](LICENSE) per i dettagli.
+Licenza GPL-3.0 - vedi il file [LICENSE](LICENSE) per i dettagli.
 
 Copyright (c) 2026 Chiara Berti 13
 
