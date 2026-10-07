@@ -16,7 +16,7 @@ Tutto avviene lato client: niente viene caricato su un server.
 Questo pacchetto contiene:
 - **`batch-renamer-pro.html`** — la struttura e l'interfaccia dell'applicazione (apri questo file per usarla)
 - **`batch-renamer-pro.js`** — tutta la logica applicativa (caricata dall'HTML; tieni i due file insieme)
-- **`LICENSE`** — Licenza MIT
+- **`LICENSE`** — Licenza GPL-3.0
 - **`README.md`** / **`README-IT.md`** — questa documentazione (Inglese / Italiano)
 
 ---
@@ -312,7 +312,7 @@ Per problemi, domande o suggerimenti, apri una issue su GitHub.
 
 ## 📜 LICENZA
 
-Licenza MIT - vedi il file [LICENSE](LICENSE) per i dettagli.
+Licenza GPL-3.0 - vedi il file [LICENSE](LICENSE) per i dettagli.
 
 Copyright (c) 2026 Chiara Berti 13
 
