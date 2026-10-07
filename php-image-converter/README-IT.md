@@ -2,7 +2,7 @@
 
 > 🇬🇧 [English](README.md) | 🇮🇹 **Italiano**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
 [![PHP Version](https://img.shields.io/badge/PHP-8.2%2B-purple.svg)](https://www.php.net/)
 [![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com/chiaraberti13)
 
@@ -168,7 +168,7 @@ di partenza.
 
 ## 📝 Licenza
 
-Questo progetto è concesso in licenza con Licenza MIT - vedi il file [LICENSE](LICENSE) per i dettagli.
+Questo progetto è concesso in licenza con Licenza GPL-3.0 - vedi il file [LICENSE](LICENSE) per i dettagli.
 
 ## 👤 Autore
 
@@ -190,4 +190,4 @@ Se trovi un bug, apri una issue con:
 
 **Realizzato con ❤️ da Chiara Berti 13**
 
-© 2026 - Licenza MIT
+© 2026 - Licenza GPL-3.0
