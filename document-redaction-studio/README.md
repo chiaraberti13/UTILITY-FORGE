@@ -18,7 +18,7 @@ This package contains:
 - **`document-redaction-studio.html`** - The application shell (open this file to run the app)
 - **`document-redaction-studio.js`** - All the application logic (loaded by the HTML file; keep
   both files in the same folder)
-- **`LICENSE`** - MIT License
+- **`LICENSE`** - GPL-3.0 License
 - **`README.md`** / **`README-IT.md`** - This documentation (English / Italian)
 
 ---
@@ -299,7 +299,7 @@ For issues, questions or suggestions, please open an issue on GitHub.
 
 ## 📜 LICENSE
 
-MIT License - see [LICENSE](LICENSE) file for details.
+GPL-3.0 License - see [LICENSE](LICENSE) file for details.
 
 Copyright (c) 2026 Chiara Berti 13
 
