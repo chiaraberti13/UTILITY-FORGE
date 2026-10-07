@@ -16,7 +16,7 @@ uploaded to a server.
 This package contains:
 - **`batch-renamer-pro.html`** — the application shell and UI (open this file to run the app)
 - **`batch-renamer-pro.js`** — all application logic (loaded by the HTML file; keep both together)
-- **`LICENSE`** — MIT License
+- **`LICENSE`** — GPL-3.0 License
 - **`README.md`** / **`README-IT.md`** — this documentation (English / Italian)
 
 ---
@@ -297,7 +297,7 @@ For issues, questions or suggestions, please open an issue on GitHub.
 
 ## 📜 LICENSE
 
-MIT License - see [LICENSE](LICENSE) file for details.
+GPL-3.0 License - see [LICENSE](LICENSE) file for details.
 
 Copyright (c) 2026 Chiara Berti 13
 
