@@ -182,4 +182,4 @@ al prodotto finito e documentato. In concreto:
 
 ---
 
-*Progetto realizzato da Chiara Berti — 2026. Licenza MIT.*
+*Progetto realizzato da Chiara Berti — 2026. Licenza GPL-3.0.*
