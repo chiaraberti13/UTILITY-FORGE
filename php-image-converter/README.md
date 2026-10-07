@@ -2,7 +2,7 @@
 
 > 🇬🇧 **English** | 🇮🇹 [Italiano](README-IT.md)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
 [![PHP Version](https://img.shields.io/badge/PHP-8.2%2B-purple.svg)](https://www.php.net/)
 [![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com/chiaraberti13)
 
@@ -163,7 +163,7 @@ and restricting who can reach this script — see *Requirements* above for the b
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
 
@@ -185,4 +185,4 @@ If you find a bug, please open an issue with:
 
 **Made with ❤️ by Chiara Berti 13**
 
-© 2026 - Licensed under MIT License
+© 2026 - Licensed under GPL-3.0 License
