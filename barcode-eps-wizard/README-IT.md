@@ -16,7 +16,7 @@ barcode pronti per la stampa tutti insieme, invece di generarli uno alla volta.
 Questo pacchetto contiene:
 - **`barcode-eps-wizard.html`** - L'applicazione web completa (è l'unico file che ti serve per usarla)
 - **`example.xlsx`** - File Excel di esempio con la struttura corretta
-- **`LICENSE`** - Licenza MIT
+- **`LICENSE`** - Licenza GPL-3.0
 - **`README.md`** / **`README-IT.md`** - Questa documentazione (Inglese / Italiano)
 
 ---
@@ -309,7 +309,7 @@ Per problemi, domande o suggerimenti, apri una issue su GitHub.
 
 ## 📜 LICENZA
 
-Licenza MIT - vedi il file [LICENSE](LICENSE) per i dettagli.
+Licenza GPL-3.0 - vedi il file [LICENSE](LICENSE) per i dettagli.
 
 Copyright (c) 2026 Chiara Berti 13
 
