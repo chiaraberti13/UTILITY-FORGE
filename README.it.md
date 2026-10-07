@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/category-AUTOMATION-22D3EE?style=flat-square" alt="AUTOMATION">
   <img src="https://img.shields.io/badge/stack-JavaScript-8B949E?style=flat-square" alt="JavaScript">
   <img src="https://img.shields.io/badge/languages-EN%20%7C%20IT-8B5CF6?style=flat-square" alt="English and Italian">
-  <img src="https://img.shields.io/badge/licence-MIT-2EA043?style=flat-square" alt="MIT">
+  <img src="https://img.shields.io/badge/licence-GPL--3.0-2EA043?style=flat-square" alt="GPL-3.0">
 </p>
 
 > Una raccolta curata di strumenti autonomi e orientati alla privacy per documenti, file e automazioni quotidiane.
@@ -45,7 +45,7 @@ I tool condividono una filosofia, non uno stack:
   un singolo file da aprire o caricare su un server.
 - **Privacy-first** — i dati vengono elaborati in locale (nel browser) o sul proprio
   server; nulla viene inviato a terzi.
-- **Gratuiti e open-source**, con licenza MIT.
+- **Gratuiti e open-source**, con licenza GNU GPL-3.0.
 
 ## Tool disponibili
 
