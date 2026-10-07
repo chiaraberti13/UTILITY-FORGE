@@ -16,7 +16,7 @@ of generating them one by one.
 This package contains:
 - **`barcode-eps-wizard.html`** - The complete web application (this is the only file you need to run it)
 - **`example.xlsx`** - Sample Excel file with correct structure
-- **`LICENSE`** - MIT License
+- **`LICENSE`** - GPL-3.0 License
 - **`README.md`** / **`README-IT.md`** - This documentation (English / Italian)
 
 ---
@@ -308,7 +308,7 @@ For issues, questions or suggestions, please open an issue on GitHub.
 
 ## 📜 LICENSE
 
-MIT License - see [LICENSE](LICENSE) file for details.
+GPL-3.0 License - see [LICENSE](LICENSE) file for details.
 
 Copyright (c) 2026 Chiara Berti 13
 
