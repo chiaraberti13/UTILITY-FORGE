@@ -1,48 +1,43 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="Utility Forge" width="100%">
-</p>
+# Security Policy
 
-<p align="center"><a href="#-english">🇬🇧 English</a> · <a href="#-italiano">🇮🇹 Italiano</a></p>
+<p align="center"><a href="#english">🇬🇧 English</a> · <a href="#italiano">🇮🇹 Italiano</a></p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/security-responsible%20disclosure-22D3EE?style=flat-square" alt="Responsible disclosure">
-  <img src="https://img.shields.io/badge/status-maintained-F2C94C?style=flat-square" alt="Maintained">
-</p>
-
-<p align="center"><a href="README.md">Project README</a> · <a href="LICENSE">MIT Licence</a></p>
-
----
-
-## 🇬🇧 English
+## English
 
 ### Supported versions
-
-Security fixes target the latest version on the default branch. Older commits, forks and unofficial builds are not supported unless explicitly documented.
-
-### Reporting a vulnerability
-
-Report vulnerabilities privately through [GitHub Security Advisories](https://github.com/chiaraberti13/Utility-Forge/security/advisories/new). Do not disclose an unpatched vulnerability in a public issue.
-
-Include the affected tool and version, impact, reproducible steps, a minimal proof of concept when safe, possible mitigations and sanitized logs.
+Security fixes target the latest revision on the default branch. Individual tools are supported as part of that current repository state rather than as independent historical releases.
 
 ### Scope
+This policy covers every utility in this monorepo, including file parsing, browser APIs, PHP upload/conversion paths, document/image metadata handling, redaction/sanitization, archive generation, filenames, local filesystem access, third-party libraries and repository CI/build configuration.
 
-This policy covers code maintained in this repository. Test only files, systems and data you own or are explicitly authorized to use. Do not upload third-party personal or confidential data during testing.
+### Reporting a vulnerability
+Do not open a public issue for an unpatched vulnerability. Use GitHub private vulnerability reporting / Security Advisories when available. Include the affected tool and commit, impact, minimal reproducible steps or proof of concept, browser/runtime assumptions and suggested mitigations. Use synthetic files and strip unrelated private data.
 
----
+### Data and privacy
+The project is privacy-first. A tool must not silently upload user files or metadata to third parties. Any network dependency must be documented. Do not commit real documents, credentials, GPS data, personal metadata or customer information.
 
-## 🇮🇹 Italiano
+### File-processing security
+Treat every filename and file as hostile until validated. Enforce count/size bounds, validate format and structure, sanitize output names, prevent path traversal, avoid unsafe DOM insertion and isolate server-side conversion tools. Redaction features must remove underlying information rather than merely cover it visually.
+
+### Supply chain
+Review dependency and vendor changes, licence compatibility and remote resources. Prefer self-contained or pinned components and keep CSP assumptions consistent with the actual assets loaded.
+
+## Italiano
 
 ### Versioni supportate
-
-Le correzioni di sicurezza riguardano la versione più recente del branch predefinito. Commit precedenti, fork e build non ufficiali non sono supportati salvo diversa indicazione.
-
-### Segnalazione di una vulnerabilità
-
-Segnala privatamente le vulnerabilità tramite [GitHub Security Advisories](https://github.com/chiaraberti13/Utility-Forge/security/advisories/new). Non divulgare vulnerabilità non corrette in issue pubbliche.
-
-Indica strumento e versione interessati, impatto, passaggi riproducibili, una prova di concetto minima quando sicura, possibili mitigazioni e log privati di dati sensibili.
+Le correzioni di sicurezza riguardano la revisione più recente del branch predefinito. I singoli strumenti sono supportati come parte dello stato corrente del repository.
 
 ### Ambito
+La policy copre tutti i tool del monorepo: parsing dei file, API browser, upload/conversione PHP, metadati di documenti/immagini, redazione/sanitizzazione, archivi, nomi file, accesso al filesystem locale, librerie di terze parti e CI/build.
 
-Questa policy copre il codice mantenuto nel repository. Utilizza esclusivamente file, sistemi e dati di tua proprietà o per i quali possiedi un’autorizzazione esplicita. Non caricare dati personali o riservati di terzi durante i test.
+### Segnalazione
+Non aprire issue pubbliche per vulnerabilità non corrette. Usa la segnalazione privata / Security Advisories quando disponibile. Indica tool e commit interessati, impatto, passaggi minimi riproducibili o PoC, assunzioni su browser/runtime e mitigazioni. Usa file sintetici e rimuovi dati privati non necessari.
+
+### Dati e privacy
+Il progetto è privacy-first. Nessun tool deve inviare silenziosamente file o metadati a terzi. Ogni dipendenza di rete va documentata. Non committare documenti reali, credenziali, coordinate GPS, metadati personali o dati cliente.
+
+### Sicurezza nell'elaborazione file
+Considera ostili file e nomi file fino alla validazione. Applica limiti di numero/dimensione, valida formato e struttura, sanifica i nomi di output, previeni path traversal, evita inserimenti DOM non sicuri e isola gli strumenti di conversione server-side. Le funzioni di redazione devono rimuovere davvero l'informazione, non solo coprirla visivamente.
+
+### Supply chain
+Controlla dipendenze e vendor, compatibilità delle licenze e risorse remote. Preferisci componenti self-contained o pinnati e mantieni la CSP coerente con gli asset realmente caricati.
