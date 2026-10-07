@@ -16,7 +16,7 @@ mostra esattamente cosa ha trovato, in linguaggio semplice, e solo dopo decidi c
 Questo pacchetto contiene:
 - **`privacy-metadata-scrubber.html`** — la shell dell'applicazione e l'interfaccia (apri questo file)
 - **`privacy-metadata-scrubber.js`** — tutta la logica dell'applicazione, caricata dal file HTML
-- **`LICENSE`** — Licenza MIT
+- **`LICENSE`** — Licenza GPL-3.0
 - **`README.md`** / **`README-IT.md`** — questa documentazione (Inglese / Italiano)
 - **`descrizione.md`** — presentazione del progetto in italiano (stile portfolio/curriculum)
 
@@ -363,7 +363,7 @@ Per problemi, domande o suggerimenti, apri una issue su GitHub.
 
 ## 📜 LICENZA
 
-Licenza MIT - vedi il file [LICENSE](LICENSE) per i dettagli.
+Licenza GPL-3.0 - vedi il file [LICENSE](LICENSE) per i dettagli.
 
 Copyright (c) 2026 Chiara Berti 13
 
