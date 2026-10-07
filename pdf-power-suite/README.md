@@ -26,7 +26,7 @@ This package contains:
 - **`pdf-power-suite-pages.js`** — the Pagine (page management) feature
 - **`pdf-power-suite-images.js`** — the PDF → Immagini feature
 - **`pdf-power-suite-pipeline.js`** — the Pipeline Builder
-- **`LICENSE`** — MIT License
+- **`LICENSE`** — GPL-3.0 License
 - **`README.md`** / **`README-IT.md`** — this documentation (English / Italian)
 
 All eight `.js` files must stay in the same folder as the `.html` file — the page loads them with
@@ -443,7 +443,7 @@ For issues, questions or suggestions, please open an issue on GitHub.
 
 ## 📜 LICENSE
 
-MIT License - see [LICENSE](LICENSE) file for details.
+GPL-3.0 License - see [LICENSE](LICENSE) file for details.
 
 Copyright (c) 2026 Chiara Berti 13
 
