@@ -50,7 +50,7 @@ UTILITY-FORGE raccoglie strumenti standalone e privacy-first per documenti e fil
 Esegui lo strumento nell'ambiente documentato e verifica, quando applicabile: limiti di numero/dimensione file, validazione di contenuto e tipo, nomi file sicuri, protezione da path traversal e injection, assenza di rendering HTML non sicuro, CSP, autenticità delle operazioni di redazione/sanitizzazione, elaborazione locale dichiarata e gestione corretta degli input malformati.
 
 ### Nuovi strumenti
-Ogni nuovo tool deve avere cartella e README propri, data-flow/privacy chiari, limiti espliciti, esempi sicuri e una voce nel README principale. Le nuove dipendenze devono essere motivate, compatibili con MIT e ragionevolmente mantenute.
+Ogni nuovo tool deve avere cartella e README propri, data-flow/privacy chiari, limiti espliciti, esempi sicuri e una voce nel README principale. Le nuove dipendenze devono essere motivate, compatibili con GPL-3.0 e ragionevolmente mantenute.
 
 ### Pull request
 Descrivi problema, implementazione, ambienti supportati, dati di test, controlli eseguiti, impatto sicurezza/privacy e limiti noti. Aggiorna prima la documentazione inglese e mantieni quella italiana equivalente.
