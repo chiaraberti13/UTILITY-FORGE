@@ -1,6 +1,6 @@
 # 📄 PDF Power Suite
 
-> 🇮🇹 **Italiano** | 🇬🇧 [English](README.md)
+> 🇬🇧 [English](README.md) | 🇮🇹 **Italiano**
 
 Un'unica applicazione web autonoma che raggruppa undici operazioni sui PDF — unire, dividere,
 gestione pagine, comprimere, PDF → immagini, filigrana e numerazione Bates, OCR verso PDF
@@ -27,7 +27,7 @@ Questo pacchetto contiene:
 - **`pdf-power-suite-pages.js`** — la funzione Pagine (gestione pagine)
 - **`pdf-power-suite-images.js`** — la funzione PDF → Immagini
 - **`pdf-power-suite-pipeline.js`** — il Generatore di Pipeline
-- **`LICENSE`** — Licenza MIT
+- **`LICENSE`** — Licenza GPL-3.0
 - **`README.md`** / **`README-IT.md`** — questa documentazione (inglese / italiano)
 
 Tutti e otto i file `.js` devono restare nella stessa cartella del file `.html` — la pagina li
@@ -491,7 +491,7 @@ Per problemi, domande o suggerimenti, apri una issue su GitHub.
 
 ## 📜 LICENZA
 
-Licenza MIT - vedi il file [LICENSE](LICENSE) per i dettagli.
+Licenza GPL-3.0 - vedi il file [LICENSE](LICENSE) per i dettagli.
 
 Copyright (c) 2026 Chiara Berti 13
 
