@@ -139,4 +139,4 @@ Attraverso questo progetto ho dimostrato competenze in:
 
 ---
 
-*Progetto rilasciato con licenza MIT.*
+*Progetto rilasciato con licenza GPL-3.0.*
