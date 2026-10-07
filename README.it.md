@@ -22,7 +22,7 @@
 
 - **[Tool disponibili](#tool-disponibili)** — Cosa c'è nella raccolta al momento: cosa
   fa ogni tool, con cosa è costruito e dove funziona.
-- **[Licenza](#licenza)** — MIT, per l'intero repository e ogni cartella tool al suo
+- **[Licenza](#licenza)** — GPL-3.0, per l'intero repository e ogni cartella tool al suo
   interno.
 - **[Aggiungere un nuovo tool](#aggiungere-un-nuovo-tool)** — Come un nuovo tool entra
   a far parte di questo monorepo e cosa deve riflettere il README.
@@ -78,7 +78,7 @@ ciascun tool può e non può garantire, vedi il README di ciascuna cartella.
 ## Licenza
 
 L'intero repository, comprese tutte le cartelle dei tool, è distribuito con **licenza
-MIT** — vedi [`LICENSE`](LICENSE) per il testo completo. Puoi usarlo, studiarlo,
+GPL-3.0** — vedi [`LICENSE`](LICENSE) per il testo completo. Puoi usarlo, studiarlo,
 modificarlo e ridistribuirlo liberamente, anche commercialmente, mantenendo l'avviso di
 copyright; è fornito così com'è, senza alcuna garanzia.
 
