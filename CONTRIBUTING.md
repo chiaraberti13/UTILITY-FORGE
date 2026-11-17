@@ -56,3 +56,13 @@ Ogni nuovo tool deve avere cartella e README propri, data-flow/privacy chiari, l
 Descrivi problema, implementazione, ambienti supportati, dati di test, controlli eseguiti, impatto sicurezza/privacy e limiti noti. Aggiorna prima la documentazione inglese e mantieni quella italiana equivalente.
 
 Si applica `CODE_OF_CONDUCT.md`.
+
+## Segnalazioni e verifica dei contributi
+
+Raccolta di strumenti autonomi per documenti, file e automazione locale.
+
+Usa i [modelli di segnalazione](https://github.com/chiaraberti13/UTILITY-FORGE/issues/new/choose) per bug, miglioramenti e barriere di accessibilità. Prima di aprire una nuova segnalazione verifica se ne esiste già una equivalente. Contesto utile: Nome della utility, browser o versione PHP, formato del file e campione sintetico.
+
+Per le modifiche, compila il modello di pull request e indica verifiche eseguite, esito e verifiche non eseguite con il motivo. Mantieni le istruzioni specifiche di questo progetto e la parità delle lingue già disponibili. Non allegare dati di produzione, credenziali o dati personali; usa esempi sintetici.
+
+Consulta [il codice di condotta](CODE_OF_CONDUCT.md), [la policy di sicurezza](SECURITY.md) e [le indicazioni di accessibilità](ACCESSIBILITY.md). Le vulnerabilità seguono esclusivamente il percorso descritto nella policy di sicurezza.

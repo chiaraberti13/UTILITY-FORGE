@@ -97,3 +97,12 @@ number *n+1* means:
 <p align="center">
   <sub>Made with 🛠️ by <a href="https://github.com/chiaraberti13">chiaraberti13</a></sub>
 </p>
+
+## Comunità e collaborazione
+
+- [Come contribuire](CONTRIBUTING.md)
+- [Codice di condotta](CODE_OF_CONDUCT.md)
+- [Segnalazioni di sicurezza](SECURITY.md)
+- [Accessibilità e limiti delle verifiche](ACCESSIBILITY.md)
+- [Segnalare un problema o proporre un miglioramento](https://github.com/chiaraberti13/UTILITY-FORGE/issues/new/choose)
+- [Licenza del progetto](LICENSE)
