@@ -20,6 +20,7 @@
 
 ## Quick Navigation
 
+- [Architecture Diagram](#-architecture-diagram)
 - **[Tools](#tools)** — What's in the collection right now: what each tool does, what
   it's built with, and where it runs.
 - **[Licence](#licence)** — GNU GPL-3.0, for the whole repository and every tool folder in it.
@@ -45,6 +46,29 @@ The tools share a philosophy, not a stack:
 - **Privacy-first** — data is processed locally (in the browser) or on your own
   server; nothing is sent to a third party.
 - **Free and open-source**, under the GNU GPL-3.0 licence.
+
+## 🗺️ Architecture Diagram
+
+```mermaid
+flowchart TD
+    accTitle: Architecture of UTILITY-FORGE
+    accDescr: Each folder is a standalone tool. Five process files in the browser. The image converter runs on the user’s PHP server and uses GD or ImageMagick.
+    repo["Utility Forge"] --> browser["Local browser"]
+    repo --> server["User-hosted PHP server"]
+    browser --> docs["PDF Power Suite · Document Redaction Studio"]
+    browser --> metadata["Privacy Metadata Scrubber"]
+    browser --> batch["Batch Renamer Pro · Chromium"]
+    browser --> barcode["EPS Barcode Generator"]
+    server --> imageconv["PHP Image Converter"]
+    imageconv --> libs["GD / ImageMagick"]
+
+    classDef core fill:#23313a,stroke:#7193a7,color:#f4f7f8;
+    classDef output fill:#2b3035,stroke:#8b959e,color:#f4f7f8;
+    class browser,server core;
+    class docs,metadata,batch,barcode,imageconv output;
+```
+
+Each folder is a standalone tool. Five process files in the browser. The image converter runs on the user’s PHP server and uses GD or ImageMagick.
 
 ## Tools
 

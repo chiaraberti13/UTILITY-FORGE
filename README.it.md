@@ -20,6 +20,7 @@
 
 ## Indice rapido
 
+- [Diagramma dell’architettura](#-diagramma-dellarchitettura)
 - **[Tool disponibili](#tool-disponibili)** — Cosa c'è nella raccolta al momento: cosa
   fa ogni tool, con cosa è costruito e dove funziona.
 - **[Licenza](#licenza)** — GPL-3.0, per l'intero repository e ogni cartella tool al suo
@@ -46,6 +47,29 @@ I tool condividono una filosofia, non uno stack:
 - **Privacy-first** — i dati vengono elaborati in locale (nel browser) o sul proprio
   server; nulla viene inviato a terzi.
 - **Gratuiti e open-source**, con licenza GNU GPL-3.0.
+
+## 🗺️ Diagramma dell’architettura
+
+```mermaid
+flowchart TD
+    accTitle: Architettura di UTILITY-FORGE
+    accDescr: Ogni cartella contiene uno strumento autonomo. Cinque elaborano i file nel browser. Il convertitore di immagini usa GD o ImageMagick sul server PHP dell’utente.
+    repo["Utility Forge"] --> browser["Browser locale"]
+    repo --> server["Server PHP dell’utente"]
+    browser --> docs["PDF Power Suite · Document Redaction Studio"]
+    browser --> metadata["Privacy Metadata Scrubber"]
+    browser --> batch["Batch Renamer Pro · Chromium"]
+    browser --> barcode["EPS Barcode Generator"]
+    server --> imageconv["PHP Image Converter"]
+    imageconv --> libs["GD / ImageMagick"]
+
+    classDef core fill:#23313a,stroke:#7193a7,color:#f4f7f8;
+    classDef output fill:#2b3035,stroke:#8b959e,color:#f4f7f8;
+    class browser,server core;
+    class docs,metadata,batch,barcode,imageconv output;
+```
+
+Ogni cartella contiene uno strumento autonomo. Cinque elaborano i file nel browser. Il convertitore di immagini usa GD o ImageMagick sul server PHP dell’utente.
 
 ## Tool disponibili
 
